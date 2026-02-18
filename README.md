@@ -1,1 +1,0 @@
-# Asafe-energia-solar-site
