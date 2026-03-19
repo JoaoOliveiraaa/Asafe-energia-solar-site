@@ -46,11 +46,11 @@ export function Header() {
 
         <div className="hidden items-center gap-4 lg:flex">
           <a
-            href="tel:+5500000000000"
+            href="tel:+5516996011587"
             className="flex items-center gap-2 text-sm font-medium text-foreground/80"
           >
             <Phone className="h-4 w-4 text-primary" />
-            (00) 00000-0000
+            (16) 99601-1587
           </a>
           <Button asChild className="bg-primary text-primary-foreground hover:bg-primary/90">
             <Link href="/contato">Solicitar Orcamento</Link>
@@ -81,11 +81,11 @@ export function Header() {
             ))}
             <div className="flex flex-col gap-3 pt-4 border-t border-border">
               <a
-                href="tel:+5500000000000"
+                href="tel:+5516996011587"
                 className="flex items-center gap-2 text-sm font-medium text-foreground/80"
               >
                 <Phone className="h-4 w-4 text-primary" />
-                (00) 00000-0000
+                (16) 99601-1587
               </a>
               <Button asChild className="bg-primary text-primary-foreground hover:bg-primary/90 w-full">
                 <Link href="/contato">Solicitar Orcamento</Link>
