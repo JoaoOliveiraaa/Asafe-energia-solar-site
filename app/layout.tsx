@@ -1,18 +1,20 @@
 import type { Metadata } from 'next'
-import { Inter, Playfair_Display } from 'next/font/google'
+import { Cinzel, Montserrat } from 'next/font/google'
 
 import './globals.css'
 import { Header } from '@/components/header'
 import { Footer } from '@/components/footer'
 
-const inter = Inter({
+const cinzel = Cinzel({
   subsets: ['latin'],
-  variable: '--font-inter',
+  variable: '--font-cinzel',
+  weight: ['400', '500', '600', '700'],
 })
 
-const playfair = Playfair_Display({
+const montserrat = Montserrat({
   subsets: ['latin'],
-  variable: '--font-playfair',
+  variable: '--font-montserrat',
+  weight: ['400', '500', '600', '700'],
 })
 
 export const metadata: Metadata = {
@@ -27,7 +29,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="pt-BR" className={`${inter.variable} ${playfair.variable}`}>
+    <html lang="pt-BR" data-scroll-behavior="smooth" className={`${cinzel.variable} ${montserrat.variable}`}>
       <body className="font-sans antialiased">
         <Header />
         <main>{children}</main>

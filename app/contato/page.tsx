@@ -18,8 +18,8 @@ const contactInfo = [
   {
     icon: Phone,
     title: "Telefone",
-    value: "(00) 00000-0000",
-    href: "tel:+5500000000000",
+    value: "(16) 99601-1587",
+    href: "tel:+5516996011587",
   },
   {
     icon: Mail,
@@ -30,8 +30,8 @@ const contactInfo = [
   {
     icon: MapPin,
     title: "Endereco",
-    value: "Rua Exemplo, 123 - Centro, Cidade - Estado",
-    href: null,
+    value: "R. Rio Paranapanema, 271 - Jockey Clube, Sao Carlos - SP, 13565-050",
+    href: "https://maps.google.com/?q=R.+Rio+Paranapanema,+271+-+Jockey+Clube,+Sao+Carlos+-+SP",
   },
   {
     icon: Clock,
@@ -122,7 +122,7 @@ export default function ContatoPage() {
                   asChild
                   className="mt-4 bg-accent text-accent-foreground hover:bg-accent/90"
                 >
-                  <a href="https://wa.me/5500000000000" target="_blank" rel="noopener noreferrer">
+                  <a href="https://wa.me/5516996011587" target="_blank" rel="noopener noreferrer">
                     <Phone className="mr-2 h-4 w-4" />
                     WhatsApp
                   </a>
@@ -282,7 +282,7 @@ export default function ContatoPage() {
                   Nossa Localizacao
                 </p>
                 <p className="mt-1 text-sm text-muted-foreground">
-                  Rua Exemplo, 123 - Centro, Cidade - Estado
+                  R. Rio Paranapanema, 271 - Jockey Clube, Sao Carlos - SP
                 </p>
               </div>
             </div>
