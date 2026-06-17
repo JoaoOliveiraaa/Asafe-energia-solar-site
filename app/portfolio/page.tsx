@@ -18,9 +18,9 @@ const projects = [
   {
     title: "Residencia Silva",
     category: "Residencial",
-    location: "Sao Paulo, SP",
-    power: "8.5 kWp",
-    description: "Sistema residencial completo com 20 modulos de alta eficiencia.",
+    location: "Sao Carlos, SP",
+    power: "6.82 kWp",
+    description: "Sistema residencial completo com 11 placas Solares de 620 W.",
     image: "/images/portfolio-1.jpg",
   },
   {
