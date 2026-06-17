@@ -16,38 +16,43 @@ const categories = [
 
 const projects = [
   {
+    id: "residencia-silva",
     title: "Residencia Silva",
     category: "Residencial",
-    location: "Sao Carlos, SP",
+    location: "Nuporanga, SP",
     power: "6.82 kWp",
     description: "Sistema residencial completo com 11 placas Solares de 620 W.",
     image: "/images/portfolio-1.jpg",
   },
   {
-    title: "Fazenda Santa Clara",
-    category: "Agronegocio",
-    location: "Ribeirao Preto, SP",
-    power: "150 kWp",
-    description: "Usina solar para alimentar toda a operacao da fazenda.",
+    id: "residencia-americo-620",
+    title: "Residencia",
+    category: "Residencial",
+    location: "Cidade de Américo Brasiliense, SP",
+    power: "6.20 kWp",
+    description: "Sistema residencial completo com 10 Placas solares 620W de potencia e Inversor de 6 kW.",
     image: "/images/portfolio-2.jpg",
   },
   {
-    title: "Agro Solar Minas",
-    category: "Agronegocio",
-    location: "Uberlandia, MG",
-    power: "85 kWp",
-    description: "Projeto integrado com secagem de graos movida a energia solar.",
+    id: "residencia-americo-420",
+    title: "Residencia",
+    category: "Residencial",
+    location: "Americo Brasiliense, SP",
+    power: "4.2 kWp",
+    description: "Sistema residencial completo com 6 Placas solares 70W de potencia e 2 Micro Inversores de 2250W",
     image: "/images/portfolio-3.jpg",
   },
   {
-    title: "Industria MetalTech",
-    category: "Industrial",
-    location: "Campinas, SP",
-    power: "320 kWp",
-    description: "Projeto industrial de grande porte com alta geracao de energia.",
+    id: "residencia-sao-carlos-660",
+    title: "Residencia em São Carlos",
+    category: "Residencial",
+    location: "São Carlos, SP",
+    power: "6.6 kWp",
+    description: "Sistema residencial completo com 11 Placas solares 600W de potencia e Inversor de 6 kW.",
     image: "/images/portfolio-4.jpg",
   },
-  {
+  /*{
+    id: "condominio-alto-padrao",
     title: "Condominio Alto Padrão",
     category: "Residencial",
     location: "Brasilia, DF",
@@ -56,6 +61,7 @@ const projects = [
     image: "/images/portfolio-5.jpg",
   },
   {
+    id: "shopping-center-sul",
     title: "Shopping Center Sul",
     category: "Comercial",
     location: "Curitiba, PR",
@@ -64,6 +70,7 @@ const projects = [
     image: "/images/portfolio-6.jpg",
   },
   {
+    id: "residencia-moderna",
     title: "Residencia Moderna",
     category: "Residencial",
     location: "Florianopolis, SC",
@@ -72,13 +79,14 @@ const projects = [
     image: "/images/service-residential.jpg",
   },
   {
+    id: "logistica-express",
     title: "Logistica Express",
     category: "Comercial",
     location: "Goiania, GO",
     power: "200 kWp",
     description: "Centro de distribuicao com cobertura solar completa.",
     image: "/images/service-commercial.jpg",
-  },
+  },*/
 ]
 
 export default function PortfolioPage() {
@@ -129,7 +137,7 @@ export default function PortfolioPage() {
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
             {filteredProjects.map((project) => (
               <div
-                key={project.title}
+                key={project.id}
                 className="group overflow-hidden rounded-2xl bg-card border border-border transition-all hover:shadow-xl hover:-translate-y-1"
               >
                 <div className="relative h-56 overflow-hidden">
