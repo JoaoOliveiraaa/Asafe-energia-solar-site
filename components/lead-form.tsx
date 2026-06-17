@@ -138,7 +138,7 @@ export function LeadForm() {
               Nossa equipe entrara em contato pelo WhatsApp em ate 24 horas com uma proposta personalizada para voce.
             </p>
             <a
-              href={`https://wa.me/5500000000000?text=Ola!%20Fiz%20a%20simulacao%20no%20site%20e%20gostaria%20de%20saber%20mais.%20Meu%20nome%20e%20${encodeURIComponent(name)}`}
+              href={`https://wa.me/5516996011587?text=Ola!%20Fiz%20a%20simulacao%20no%20site%20e%20gostaria%20de%20saber%20mais.%20Meu%20nome%20e%20${encodeURIComponent(name)}`}
               target="_blank"
               rel="noopener noreferrer"
               className="mt-2 inline-flex w-full items-center justify-center gap-2 rounded-xl bg-primary px-6 py-3.5 text-sm font-bold text-primary-foreground transition-colors hover:bg-primary/90 uppercase tracking-wide"
