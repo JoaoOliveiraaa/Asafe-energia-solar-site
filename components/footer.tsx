@@ -81,7 +81,7 @@ export function Footer() {
                 (16) 99601-1587
               </a>
               <a
-                href="mailto:contato@asafeenergia.com.br"
+                href="mailto:asafeeenergiasolar@gmail.com"
                 className="flex items-start gap-3 text-sm text-secondary-foreground/70 hover:text-accent transition-colors"
               >
                 <Mail className="h-4 w-4 mt-0.5 shrink-0 text-accent" />
