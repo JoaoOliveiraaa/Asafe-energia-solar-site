@@ -85,11 +85,11 @@ export function Footer() {
                 className="flex items-start gap-3 text-sm text-secondary-foreground/70 hover:text-accent transition-colors"
               >
                 <Mail className="h-4 w-4 mt-0.5 shrink-0 text-accent" />
-                contato@asafeenergia.com.br
+               asafeenergiasolar@gmail.com
               </a>
               <div className="flex items-start gap-3 text-sm text-secondary-foreground/70">
                 <MapPin className="h-4 w-4 mt-0.5 shrink-0 text-accent" />
-                <span>R. Rio Paranapanema, 271 - Jockey Clube, Sao Carlos - SP, 13565-050</span>
+                <span>Rua Gastão Vieira, 79 - São Carlos, SP - CEP: 13562-294</span>
               </div>
               <div className="flex gap-4 pt-2">
                 <a
