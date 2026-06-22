@@ -21,6 +21,11 @@ export const metadata: Metadata = {
   title: 'ASAFE Energia Solar | Energia Limpa e Sustentavel',
   description:
     'A ASAFE Energia Solar oferece solucoes completas em energia solar fotovoltaica para residencias, empresas e industrias. Economize na conta de luz com energia limpa.',
+  icons: {
+    icon: [
+      { url: '/favicon.png', type: 'image/png' },
+    ],
+  },
 }
 
 export default function RootLayout({
